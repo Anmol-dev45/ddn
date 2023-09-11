@@ -3,6 +3,7 @@ import Container from './Container'
 import Button from './Button'
 import { HERO } from '../../constant'
 import { BsFacebook } from "react-icons/bs"
+import { AiFillInstagram } from "react-icons/ai"
 
 const Hero = () => {
     const { title, description } = HERO
@@ -13,10 +14,9 @@ const Hero = () => {
 
                     <div className='flex-1'>
                         <div className='flex flex-row-reverse items-center gap-2 mb-12 text-primary text-xl'>
-                                <BsFacebook />
-                                <BsFacebook />
-                                <BsFacebook />
-                                <div className='h-1 bg-primary/90 w-full rounded-full'></div>
+                            <div className='h-1 bg-primary/90 w-full rounded-full hidden md:flex'></div>
+                           <a href="https://www.facebook.com/NepaliDailyDose" target='_blank'><BsFacebook /></a> 
+                           <a href="https://www.instagram.com/nepalidailydose"><AiFillInstagram size={25}/></a>
                         </div>
                         <div>
                             <h1 className='max-md:hidden text-5xl font-medium font-righteous tracking-widest text-primary mb-4'>{title}</h1>
