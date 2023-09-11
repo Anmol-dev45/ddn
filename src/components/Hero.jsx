@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <section className='mt-20'>
             <Container>
-                <div className="flex flex-col-reverse md:flex-row justify-between relative border-3 items-start gap-x-2 gap-y-6">
+                <div className="flex flex-col-reverse lg:flex-row justify-between relative border-3 items-start gap-x-2 gap-y-6">
 
                     <div className='flex-1'>
                         <div className='flex flex-row-reverse items-center gap-2 mb-12 text-primary text-xl'>
